@@ -1,0 +1,78 @@
+.box{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    border: 1px dashed red;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /*------------------About-----------------*/
+  
+  
+  .skills {
+    max-width: 100%;
+  }
+  
+  .skills .progress-bar {
+    background-color: rgb(224, 13, 13);
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    padding-top: 0;
+    padding-left: 5px;
+    text-align: left;
+    color: #fff;
+    box-shadow: none;
+    font-size: 10px;
+    line-height: 20px;
+    border-radius: 10px;
+  }
+  
+  .skills .progress {
+    overflow: visible;
+    height: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: none;
+    background: #061ef3;
+    box-shadow: none;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+  
+  .skills .progress-bar {
+    width: 0%;
+  }
+  .skills .progress-bar span {
+    position: absolute;
+    top: -28px;
+    right: -6px;
+    display: inline-block;
+    min-width: 25px;
+    height: 22px;
+    padding: 0 8px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    line-height: 21px;
+    width: 36px;
+    border-radius: 0px;
+  }
+  
+  .skills .progress-bar > span::before {
+    position: absolute;
+    bottom: -4px;
+    left: 13px;
+    display: block;
+    width: 8px;
+    height: 8px;
+    content: "";
+    transform: rotate(45deg);
+    background-color: rgb(21, 248, 0);
+  }
+  
+  
